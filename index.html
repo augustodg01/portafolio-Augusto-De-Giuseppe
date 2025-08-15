@@ -14,13 +14,12 @@
     <header class="bg-[#393d45] shadow">
         <div class="bg-[#393d45] flex justify-between items-center fixed top-0 px-7 py-3 w-full z-50 m-auto " >
             
-            <a href="#home"><h2 class="font-bold font-sans text-green-500">AugustoDG</h2></a>
+            <a href="#home"><h2 class="font-bold font-sans text-green-500 text-lg">AugustoDG</h2></a>
             
-            <nav class="text-gray-400 font-medium flex gap-6 text-xs">
+            <nav class="text-gray-400 font-medium flex gap-6 text-sm">
                 <a  class="hover:text-green-400 transition"  href="#home">Home</a>
                 <a  class="hover:text-green-400 transition"  href="#proyectos">Projects</a>
                 <a  class="hover:text-green-400 transition"  href="#skill">Skills</a>
-                <a  class="hover:text-green-400 transition"  href="">About</a>
                 <a  class="hover:text-green-400 transition"  href="#contacto">Contact</a>
             </nav>
             
@@ -51,7 +50,7 @@
 
         <!-- PROYECTOS -->
         <section id="proyectos" class="scroll-mt-16 max-w-350 m-auto pb-20">
-            <h2 class=" mt-20 text-3xl text-green-500 font-bold font-[Open_Sans]">PROYECTOS</h2>
+            <h2 class=" mt-20 text-3xl text-green-500 font-bold font-subtitulos">PROYECTOS</h2>
             <div class="flex max-w-300 gap-15 m-auto mt-15">
                 <div class="max-w-100">
                     <div class="imgfont rounded flex max-w-200 h-100 items-center">
@@ -82,9 +81,9 @@
         </section>
 
         <!-- HABILIDADES -->
-        <section id="skill" class="bg-[#3e4d57] pb-15" >
+        <section id="skill" class="bg-[#3e4d57] pb-15 scroll-mt-30 pb-20" >
             <div class=" bg-[#3e4d57] max-w-350 m-auto">
-                <h2 class=" mt-20 mb-15 text-3xl text-center text-green-500 font-bold font-[Open_Sans] pt-15">HABILIDADES</h2>
+                <h2 class=" mt-20 mb-15 text-3xl text-center text-green-500 font-bold font-subtitulos pt-15">HABILIDADES</h2>
 
                 <div class="flex justify-around items-center ">
                 
@@ -104,26 +103,76 @@
        
         <!-- CONTACTO -->
 
-        <section id="contacto">
-            <h2 class=" mt-20 mb-10 text-3xl text-green-500 font-bold font-[Open_Sans] ">CONTACTO</h2>
-            <div>
+        <section id="contacto" class="scroll-mt-24 max-w-350 m-auto">
+            <h2 class=" mt-20 mb-2 text-3xl text-green-500 font-bold font-subtitulos">CONTACTO</h2>
+            
+            <div class="flex justify-around items-center  max-w-300 pb-20">
                 
-                formulario
+                <!-- formulario -->
+                <div class="max-w-200 m-auto flex flex-col">
+
+                    <form class="pt-10  w-100 h-110 flex flex-col gap-5" action="">
+                        <h3 class="font-bold text-3xl text-center text-gray-400 font-tumensaje">Tu mensaje </h3>
+                        <!-- Nombre -->
+                        <div class="flex flex-col">
+                            <!-- <label class="text-green-200 text-xl" for="fname">Nombre</label> -->
+                            <input class="bg-[#222a33] rounded py-3 pl-3 text-gray-400" type="Nombre" placeholder="Nombre">
+                        </div>
+                    
+                        <!-- Email -->
+                        <div class="flex flex-col">
+                            <!-- <label class="text-green-200 text-xl" for="">Email</label> -->
+                            <input class="bg-[#222a33] rounded py-3 pl-3 text-gray-400" type="Email" placeholder="Email">
+                         </div>
+                    
+                        <!-- Mensaje -->
+                        <div class="flex flex-col">
+                            <!-- <label class="text-green-200 text-xl" for="">Mensaje</label> -->
+                            <textarea class="bg-[#222a33] rounded pb-30 pl-2 pr-2 pt-1 text-gray-400" name="Mensaje" id="" placeholder="Mensaje"></textarea>
+                            
+                         </div>
+
+                         
+                    
+                    </form>
+
+                    <!-- BOTON -->
+
+                    <div class="m-auto ">
+                        <button class="bg-[#a8f4bf] hover:bg-gray-800 hover:text-green-200 transition cursor-pointer text-gray-800 font-bold border-3 rounded w-30 py-2 px-5 font-boton">Enviar</button>
+                    </div>
+
+                
+                </div>
+
                 <div>
+                    <p class=" text-gray-400 text-3xl font-bold max-w-100 font-tumensaje leading-relaxed">
+                        Hagamos algo nuevo, diferente y más importante, o más visual y conceptual! <span class="text-[#a8f4bf]">Solo di "Hola"!</span>
+                    </p>
 
                 </div>
 
-
-                <div>
-
-                </div>
+                
+                
             </div>
             
 
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-[#3e4d57] flex justify-between py-7 px-20">
+         <div class="flex gap-2 items-center">
+            <a href="mailto:augustodegiuseppe0@gmail.com"><img class="w-6" src="img/envelope-at-fill.svg" alt=""></a>
+            <a class="text-gray-400 font-medium" href="mailto:augustodegiuseppe0@gmail.com">augustodegiuseppe0@gmail.com</a>
+         </div>
+         
+         <div class="flex justify-between gap-6">
+            
+            <a class="p-1 border-2 rounded hover:bg-[#a8f4bf]" href=""><img class="w-6" src="img/github.svg" alt=""></a>
+            <a class="p-1 border-2 rounded hover:bg-[#a8f4bf]" href="https://www.instagram.com/augustodegiuseppe/"><img class="w-6  " src="img/instagram.svg" alt=""></a>
+        
+            
+         </div>
 
     </footer>
 
