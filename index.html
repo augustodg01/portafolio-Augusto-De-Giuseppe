@@ -14,11 +14,16 @@
     <header class="bg-[#393d45] shadow">
         <div class="bg-[#393d45] flex justify-between items-center fixed top-0 px-7 py-3 w-full z-50 m-auto " >
             
-            <a href="#home"><h2 class="font-bold font-sans text-green-500 text-lg">AugustoDG</h2></a>
+            <a href="#home"><h2 class="font-bold font-sans text-green-500 text-lg">Mi Portafolio</h2></a>
+            
+            <!-- Menu hamburguesa
+            <button id="menu-hamburguesa" class="text-xl md:hidden text-gray-400">☰</button> -->
             
             <nav class="text-gray-400 font-medium flex gap-6 text-sm">
                 <a  class="hover:text-green-400 transition"  href="#home">Home</a>
                 <a  class="hover:text-green-400 transition"  href="#proyectos">Projects</a>
+                <a  class="hover:text-green-400 transition"  href="#about">Sobre Mi</a>
+                <a  class="hover:text-green-400 transition"  href="#experiencia">Experiencia</a>
                 <a  class="hover:text-green-400 transition"  href="#skill">Skills</a>
                 <a  class="hover:text-green-400 transition"  href="#contacto">Contact</a>
             </nav>
@@ -50,13 +55,16 @@
 
         <!-- PROYECTOS -->
         <section id="proyectos" class="scroll-mt-16 max-w-350 m-auto pb-20">
-            <h2 class=" mt-20 text-3xl text-green-500 font-bold font-subtitulos">PROYECTOS</h2>
-            <div class="flex max-w-300 gap-15 m-auto mt-15">
-                <div class="max-w-100">
-                    <div class="imgfont rounded flex max-w-200 h-100 items-center">
-                        <img class="w-60 h-90 p-2" src="img/paginaweb1.png" alt="">
-                        <img class="w-40 h-50 p-2" src="img/paginaweb2.png" alt="">
-                    </div>
+            <h2 class="mt-20 mb-15 text-3xl text-center text-green-500 font-bold font-subtitulos pt-1">PROYECTOS</h2>
+             
+            <div class=" flex items-center max-w-300 gap-15 m-auto mt-15">
+                <div class=" max-w-100">
+                    <a href="file:///C:/Users/meuge/Desktop/Curso%20Programacion/tp3-FlexBox-Clon/index.html">
+                        <div class="imgfont rounded flex max-w-200 h-100 items-center">
+                            <img class="w-60 h-90 p-2" src="img/paginaweb1.png" alt="">
+                            <img class="w-40 h-50 p-2" src="img/paginaweb2.png" alt="">
+                        </div>
+                    </a>
                     <h2 class="text-xl text-green-400 mt-3">
                         "PAGINA WEB"
                     </h2>
@@ -66,23 +74,67 @@
                     
                 </div>
 
-                <div class="imgfont text-green-400 max-w-100  h-60">
-                    <img class="w-60 h-60 p-3" src="img/auto.png" alt="">
-                    <h2 class="text-xl text-green-400 mt-3">
+                <a href="file:///C:/Users/meuge/Desktop/Curso%20Programacion/paginaclase6/index.html">
+                    <div class="max-w-100">
+                        <div class="imgfont rounded max-w-200  h-100">
+                            <img class="w-90 h-100 p-3" src="img/auto.png" alt="">
+                        </div>    
+                        <h2 class="text-xl text-green-400 mt-3">
                         "SITIO WEB"
-                    </h2>
-                    <p class="text-gray-400">
+                        </h2>
+                        <p class="text-gray-400">
                         Sitio web simple que ofrece servicios de auxilio mecánico, con secciones de información, servicios y contacto.
-                    </p>
+                        </p>
+                     </div>
+                </a>
+
+                <a href="file:///C:/Users/meuge/Desktop/Curso%20Programacion/tarjetaPersonal/index.html">
+                    <div class="max-w-100">
+                        <div class="imgfont rounded max-w-200  h-100">
+                            <img class="w-90 h-100 p-3" src="img/tarjetadepresentacion.png" alt="">
+                        </div>
+                    
+                    <h2 class="text-xl text-green-400 mt-3">"TARJETA DE PRESENTACION"</h2>
+                    <p class="text-gray-400">Tarjeta personal con mis datos básicos, estudios, aficiones y fotografía para una presentación rápida.</p>
                 </div>
+                </a>
+
+                
 
             </div>
 
         </section>
 
+        <!-- SOBRE MI -->
+        <section id="about" class="scroll-mt-16 bg-[#3e4d57] pb-15">
+            <div class="max-w-200 m-auto text-lg">
+                <h3 class=" mt-20 mb-10 text-3xl text-center text-green-500 font-bold font-subtitulos pt-15">SOBRE MI</h3>
+                <p class="bg-[#3e4d57] text-gray-400"><span class="text-[#a8f4bf]">Hola! Mi nombre es Augusto</span>, tengo 25 años y me apasiona la tecnología. Me gusta aprender continuamente sobre nuevas tecnologías, lenguajes de programación y tendencias en el desarrollo de software. He adquirido experiencia en el desarrollo full stack, trabajando tanto en la parte visual como en la lógica y gestión de datos. Actualmente curso la carrera de Ingeniería en Sistemas en la Universidad Tecnológica de Mendoza. Disfruto trabajar en equipo y, fuera del ámbito académico y profesional, me encanta practicar deporte, especialmente jugar al fútbol.</p>
+
+            </div>
+            
+        </section>
+
+        <!-- EXPERIENCIA -->
+
+        <section id="experiencia" class="scroll-mt-16">
+            <div class="">
+                <h3 class=" mt-15 mb-10 text-3xl text-center text-green-500 font-bold font-subtitulos pt-15">EXPERIENCIA</h3>
+                <div class="max-w-350 m-auto">
+                    <h4 class="text-[#a8f4bf] text-xl font-medium">CURSO FULL STACK</h4>
+                    <p class="text-gray-500 font-bold text-md">Estudiante</p>
+                    <p class="text-gray-400">"Conocimiento del lenguaje, manejo de herramientas y comprensión de conceptos fundamentales, así como el uso de tecnologías y buenas prácticas vistas en el curso de desarrollo full stack, incluyendo programación del lado del cliente y del servidor, bases de datos y control de versiones, entre otros".<p>
+
+                </div>
+                
+            
+            </div>
+            
+        </section>
+
         <!-- HABILIDADES -->
         <section id="skill" class="bg-[#3e4d57] pb-15 scroll-mt-30 pb-20" >
-            <div class=" bg-[#3e4d57] max-w-350 m-auto">
+            <div class="bg-[#3e4d57]  max-w-350 m-auto">
                 <h2 class=" mt-20 mb-15 text-3xl text-center text-green-500 font-bold font-subtitulos pt-15">HABILIDADES</h2>
 
                 <div class="flex justify-around items-center ">
@@ -100,6 +152,8 @@
             
         
         </section>
+
+        
        
         <!-- CONTACTO -->
 
