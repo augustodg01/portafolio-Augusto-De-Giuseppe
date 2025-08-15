@@ -15,3 +15,12 @@ $(document).ready(function(){
     });
 
 });
+
+
+// Botón hamburguesa
+let menuhamburguesa = document.getElementById("menu-hamburguesa");
+const menu = document.getElementById("menu");
+
+menuhamburguesa.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
